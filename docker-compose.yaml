@@ -1,0 +1,11 @@
+version: '2.3'
+services:
+  tiny:
+    privileged: true
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+#    restart: always
+
