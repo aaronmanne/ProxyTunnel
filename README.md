@@ -4,7 +4,9 @@ The intent of this project is to compartmentalize vpn traffic via docker.  The c
 
 Create a credentials file with the following variables
 
+```
 USERNAME=''
 PASSWORD=''
 TOTP=''
 VPNSERVER=''
+```
