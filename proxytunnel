@@ -1,0 +1,1 @@
+xterm -geometry 180x20 -e "cd ~/bin/ProxyTunnel && docker-compose up; bash" &
