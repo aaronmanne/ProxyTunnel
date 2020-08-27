@@ -1,4 +1,4 @@
-version: '2.3'
+version: '3'
 services:
   tiny:
     privileged: true
@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8888:8888"
-#    restart: always
+    restart: always
