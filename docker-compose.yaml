@@ -7,4 +7,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8888:8888"
-    restart: always
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 2
